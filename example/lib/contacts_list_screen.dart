@@ -332,7 +332,6 @@ class _ContactsListScreenState extends State<ContactsListScreen> {
               ],
             ),
             onTap: () {
-              // TODO: Implement contact detail view or action
               ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(content: Text('Tapped on ${contact.displayName}')),
               );
